@@ -107,7 +107,7 @@ useEffect(()=>{
       </div>
       {selectcity && (
         <h2 style={{fontWeight:'500'}}>
-          You Selected <span style={{fontSize:'33px',fontWeight:'800'}}>{selectcity}</span>,<span style={{color:'grey',fontWeight:'400'}}>{' '}{selectstate}, {selectcountry}</span>
+          You selected <span style={{fontSize:'33px',fontWeight:'800'}}>{selectcity}</span>,<span style={{color:'grey',fontWeight:'400'}}>{' '}{selectstate}, {selectcountry}</span>
         </h2>
       )
       // ?<p>You Selected {selectcity}, {selectstate}, {selectcountry} </p>:''}
