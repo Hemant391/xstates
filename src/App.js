@@ -105,9 +105,15 @@ useEffect(()=>{
           ))}
         </select>
       </div>
-      {selectcity?<p>You selected <b>{selectcity}</b>,<span className='fade'>{selectstate},</span><span>{selectcountry}</span></p>:''}
-      
+      {selectcity && (
+        <h2 style={{fontWeight:'500'}}>
+          You Selected <span style={{fontSize:'33px',fontWeight:'800'}}>{selectcity}</span>,<span style={{color:'grey',fontWeight:'400'}}>{' '}{selectstate}, {selectcountry}</span>
+        </h2>
+      )
+      // ?<p>You Selected {selectcity}, {selectstate}, {selectcountry} </p>:''}
+    }
     </div>
+    // 9711778393
   );
 }
 
